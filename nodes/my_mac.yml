@@ -1,6 +1,3 @@
 brew:
   enable_update: true
   enable_upgrade: true
-  add_repositories:
-    - homebrew/dupes
-    - homebrew/versions
