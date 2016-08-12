@@ -5,3 +5,5 @@ Host *
   ControlMaster auto
   ControlPath ~/.ssh/cm-%r@%h:%p
   ControlPersist 30m
+
+Include *.config
