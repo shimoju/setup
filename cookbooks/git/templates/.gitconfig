@@ -17,9 +17,6 @@
 	rebase = true
 [push]
 	default = simple
-[include]
-	path = ~/.gitconfig_os
-	path = ~/.gitconfig_local
 [alias]
 	# status
 	s = status --branch --short
@@ -54,7 +51,7 @@
 	rbi = rebase -i
 	rbc = rebase --continue
 	rba = rebase --abort
-[ghq]
-	root = ~/dev/src
 [credential]
 	helper = <%= @credential_helper %>
+[ghq]
+	root = ~/dev/src
