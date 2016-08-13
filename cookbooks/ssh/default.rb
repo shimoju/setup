@@ -1,9 +1,9 @@
 package 'openssh'
 
-directory File.expand_path('.ssh', '~') do
+directory File.expand_path('~/.ssh') do
   mode '700'
 end
 
-template File.expand_path('.ssh/config', '~') do
+template File.expand_path('~/.ssh/config') do
   mode '600'
 end
