@@ -1,11 +1,9 @@
-template File.expand_path('~/.gemrc') do
-  mode '644'
-end
-
-template File.expand_path('~/.pryrc') do
-  mode '644'
-end
-
-template File.expand_path('~/.railsrc') do
-  mode '644'
+%w(
+  .gemrc
+  .pryrc
+  .railsrc
+).each do |conf|
+  template File.expand_path(conf, '~') do
+    mode '644'
+  end
 end
