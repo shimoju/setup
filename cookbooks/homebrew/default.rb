@@ -3,8 +3,11 @@ node.reverse_merge!(
     add_repositories: [
       'homebrew/dupes',
       'homebrew/versions',
-    ]
+    ],
+    install_packages: [],
+    install_apps: [],
   }
 )
 
-include_recipe 'homebrew::common'
+include_recipe 'homebrew::package'
+include_recipe 'homebrew::cask'
