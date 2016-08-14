@@ -1,3 +1,11 @@
 brew:
   enable_update: false
   enable_upgrade: false
+  # 依存関係や設定ファイルのないパッケージはここに書く
+  install_packages:
+    - checkbashisms
+    - heroku
+    - jq
+    - tree
+    - wget
+    - youtube-dl
