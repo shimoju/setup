@@ -1,7 +1,9 @@
 package 'zsh'
 package 'git'
 
-git File.expand_path('~/.zprezto') do
+zdotdir = '~/.config/zsh'
+
+git File.expand_path("#{zdotdir}/.zprezto") do
   repository 'https://github.com/sorin-ionescu/prezto.git'
   recursive true
 end
@@ -14,7 +16,11 @@ end
   .zshenv
   .zshrc
 ).each do |conf|
-  template File.expand_path(conf, '~') do
+  template File.expand_path(conf, zdotdir) do
     mode '644'
   end
+end
+
+link File.expand_path('~/.zshenv') do
+  to File.expand_path("#{zdotdir}/.zshenv")
 end
