@@ -9,6 +9,28 @@ brew:
     - tree
     - wget
     - youtube-dl
+  install_apps:
+    - atom
+    - audacity
+    - blu-ray-player
+    - docker
+    - dropbox
+    - firefox
+    - flash
+    - flux
+    - google-chrome
+    - google-japanese-ime
+    - insomniax
+    - iterm2
+    - java
+    - karabiner
+    - libreoffice
+    - processing
+    - sequel-pro
+    - skype
+    - vagrant
+    - virtualbox
+    - vlc
   install_fonts:
     - font-m-plus
     - font-noto-sans-cjk-jp
