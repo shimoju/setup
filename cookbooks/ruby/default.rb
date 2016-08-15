@@ -9,3 +9,7 @@ include_recipe '../anyenv/default'
     mode '644'
   end
 end
+
+git File.expand_path('~/.anyenv/envs/rbenv') do
+  repository 'https://github.com/rbenv/rbenv.git'
+end
