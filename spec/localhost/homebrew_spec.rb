@@ -10,7 +10,7 @@ end
   homebrew/versions
   caskroom/cask
 ).each do |repo|
-  describe command("brew tap | grep -q #{repo}") do
+  describe command("brew tap | grep '^#{repo}$'") do
     its(:exit_status) { should eq 0 }
   end
 end

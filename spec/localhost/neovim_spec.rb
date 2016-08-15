@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe command('brew tap | grep -q neovim/neovim') do
+describe command("brew tap | grep '^neovim/neovim$'") do
   its(:exit_status) { should eq 0 }
 end
 
