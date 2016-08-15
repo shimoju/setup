@@ -49,4 +49,8 @@ describe 'rbenv-default-gems' do
   describe file(File.expand_path('~/.anyenv/envs/rbenv/plugins/rbenv-default-gems/etc/rbenv.d/install/default-gems.bash')) do
     it { should be_file }
   end
+
+  describe file(File.expand_path('~/.anyenv/envs/rbenv/default-gems')) do
+    it { should be_file }
+  end
 end

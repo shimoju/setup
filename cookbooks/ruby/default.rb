@@ -24,3 +24,7 @@ end
 git File.expand_path('~/.anyenv/envs/rbenv/plugins/rbenv-default-gems') do
   repository 'https://github.com/rbenv/rbenv-default-gems.git'
 end
+
+template File.expand_path('~/.anyenv/envs/rbenv/default-gems') do
+  mode '644'
+end
