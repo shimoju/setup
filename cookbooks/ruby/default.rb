@@ -1,3 +1,5 @@
+include_recipe '../anyenv/default'
+
 %w(
   .gemrc
   .pryrc
