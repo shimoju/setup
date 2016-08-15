@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 %w(
+  libyaml
   openssl
   readline
 ).each do |pkg|

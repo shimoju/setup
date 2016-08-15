@@ -1,5 +1,6 @@
 include_recipe '../anyenv/default'
 
+package 'libyaml'
 package 'openssl'
 package 'readline'
 
