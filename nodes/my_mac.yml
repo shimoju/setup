@@ -9,3 +9,8 @@ brew:
     - tree
     - wget
     - youtube-dl
+  install_fonts:
+    - font-m-plus
+    - font-noto-sans-cjk-jp
+    - font-ricty-diminished
+    - font-source-han-code-jp
