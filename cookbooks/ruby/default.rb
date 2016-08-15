@@ -1,5 +1,8 @@
 include_recipe '../anyenv/default'
 
+package 'openssl'
+package 'readline'
+
 %w(
   .gemrc
   .pryrc

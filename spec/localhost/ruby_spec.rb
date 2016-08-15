@@ -1,6 +1,15 @@
 require 'spec_helper'
 
 %w(
+  openssl
+  readline
+).each do |pkg|
+  describe package(pkg) do
+    it { should be_installed }
+  end
+end
+
+%w(
   .gemrc
   .pryrc
   .railsrc
