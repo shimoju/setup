@@ -1,3 +1,5 @@
+include_recipe '../homebrew/default'
+
 repo = 'caskroom/fonts'
 execute "Add Repository: #{repo}" do
   command "brew tap #{repo}"
