@@ -5,3 +5,11 @@ execute "Add Repository: #{repo}" do
 end
 
 package 'neovim'
+
+neovim_dir = '~/.config/nvim'
+
+directory File.expand_path(neovim_dir)
+
+template File.expand_path("#{neovim_dir}/init.vim") do
+  mode '644'
+end
