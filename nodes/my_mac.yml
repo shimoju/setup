@@ -5,6 +5,7 @@ brew:
   install_packages:
     - checkbashisms
     - direnv
+    - go
     - heroku
     - imagemagick
     - jq

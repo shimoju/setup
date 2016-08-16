@@ -47,6 +47,7 @@ end
 
 %w(
   .zprofile.d/anyenv.zsh
+  .zprofile.d/go.zsh
   .zshrc.d/direnv.zsh
   .zshrc.d/docker.zsh
   .zshrc.d/neovim.zsh
