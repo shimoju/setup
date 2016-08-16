@@ -39,6 +39,15 @@ describe 'Zsh config' do
     end
   end
 
+  %w(
+    .zprofile.d
+    .zshrc.d
+  ).each do |confdir|
+    describe file(File.expand_path(confdir, '~/.config/zsh')) do
+      it { should be_directory }
+    end
+  end
+
   describe file(File.expand_path('~/.zshenv')) do
     it { should be_symlink }
     it { should be_linked_to File.expand_path('~/.config/zsh/.zshenv') }

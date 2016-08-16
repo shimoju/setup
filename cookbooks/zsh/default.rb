@@ -37,6 +37,13 @@ end
   end
 end
 
+%w(
+  .zprofile.d
+  .zshrc.d
+).each do |confdir|
+  directory File.expand_path(confdir, zdotdir)
+end
+
 link File.expand_path('~/.zshenv') do
   to File.expand_path("#{zdotdir}/.zshenv")
 end
