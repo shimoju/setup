@@ -4,6 +4,17 @@ describe package('zsh') do
   it { should be_installed }
 end
 
+describe 'Login shell' do
+  describe command("grep '^/usr/local/bin/zsh$' /etc/shells") do
+    its(:exit_status) { should eq 0 }
+  end
+
+  # 再ログイン(ターミナルを再起動)しないとログインシェルが変わらずテストが失敗するので注意
+  describe command("test $SHELL = '/usr/local/bin/zsh'") do
+    its(:exit_status) { should eq 0 }
+  end
+end
+
 describe 'Prezto' do
   describe file(File.expand_path('~/.config/zsh/.zprezto')) do
     it { should be_directory }
