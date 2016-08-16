@@ -47,6 +47,7 @@ end
 
 %w(
   .zprofile.d/anyenv.zsh
+  .zshrc.d/docker.zsh
   .zshrc.d/neovim.zsh
   .zshrc.d/ruby.zsh
 ).each do |conf|
