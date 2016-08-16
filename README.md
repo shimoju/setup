@@ -3,7 +3,7 @@
 ## Install
 
 ```
-curl -fL bit.ly/shimoju-setup | sh
+$ curl -fL bit.ly/shimoju-setup | sh
 ```
 
 Script: https://github.com/shimoju/setup/blob/master/install.sh
