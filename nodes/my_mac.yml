@@ -4,6 +4,7 @@ brew:
   # 依存関係や設定ファイルのないパッケージはここに書く
   install_packages:
     - checkbashisms
+    - direnv
     - heroku
     - jq
     - tree

@@ -50,6 +50,7 @@ describe 'Zsh config' do
 
   %w(
     .zprofile.d/anyenv.zsh
+    .zshrc.d/direnv.zsh
     .zshrc.d/docker.zsh
     .zshrc.d/neovim.zsh
     .zshrc.d/ruby.zsh
