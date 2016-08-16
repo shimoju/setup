@@ -47,6 +47,7 @@ end
 
 %w(
   .zprofile.d/anyenv.zsh
+  .zshrc.d/ruby.zsh
 ).each do |conf|
   template File.expand_path(conf, zdotdir) do
     mode '644'
