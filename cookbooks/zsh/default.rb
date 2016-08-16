@@ -37,6 +37,25 @@ end
   end
 end
 
+%w(
+  .zprofile.d
+  .zshrc.d
+).each do |confdir|
+  directory File.expand_path(confdir, zdotdir)
+
+end
+
+%w(
+  .zprofile.d/anyenv.zsh
+  .zshrc.d/docker.zsh
+  .zshrc.d/neovim.zsh
+  .zshrc.d/ruby.zsh
+).each do |conf|
+  template File.expand_path(conf, zdotdir) do
+    mode '644'
+  end
+end
+
 link File.expand_path('~/.zshenv') do
   to File.expand_path("#{zdotdir}/.zshenv")
 end

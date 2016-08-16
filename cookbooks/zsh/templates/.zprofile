@@ -69,3 +69,11 @@ if [[ ! -d "$TMPDIR" ]]; then
 fi
 
 TMPPREFIX="${TMPDIR%/}/zsh"
+
+#
+# Source .zprofile.d
+#
+
+for file in "${ZDOTDIR:-$HOME}/.zprofile.d"/**/*.zsh; do
+  source "$file"
+done
