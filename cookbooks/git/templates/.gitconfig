@@ -54,4 +54,4 @@
 [credential]
 	helper = <%= @credential_helper %>
 [ghq]
-	root = ~/dev/src
+	root = ~/local/src
