@@ -6,6 +6,7 @@ brew:
     - checkbashisms
     - direnv
     - heroku
+    - imagemagick
     - jq
     - tree
     - wget
