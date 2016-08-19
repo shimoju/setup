@@ -31,6 +31,8 @@ brew:
     - processing
     - sequel-pro
     - skype
+    - tunnelblick
+    - tuntap
     - vagrant
     - virtualbox
     - vlc
