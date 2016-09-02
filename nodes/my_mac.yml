@@ -3,6 +3,7 @@ brew:
   enable_upgrade: false
   # 依存関係や設定ファイルのないパッケージはここに書く
   install_packages:
+    - carthage
     - checkbashisms
     - direnv
     - go
