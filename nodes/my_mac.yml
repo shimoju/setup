@@ -10,6 +10,7 @@ brew:
     - heroku
     - imagemagick
     - jq
+    - nghttp2
     - tree
     - wget
     - youtube-dl
