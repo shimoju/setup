@@ -6,8 +6,10 @@ node.reverse_merge!(
     ],
     install_packages: [],
     install_apps: [],
+    install_fonts: [],
   }
 )
 
 include_recipe 'homebrew::package'
 include_recipe 'homebrew::cask'
+include_recipe 'homebrew::cask-fonts'

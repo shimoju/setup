@@ -1,5 +1,4 @@
 include_recipe '../cookbooks/homebrew/default'
-include_recipe '../cookbooks/fonts/default'
 include_recipe '../cookbooks/ssh/default'
 include_recipe '../cookbooks/git/default'
 include_recipe '../cookbooks/zsh/default'
