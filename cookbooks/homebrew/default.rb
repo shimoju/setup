@@ -3,7 +3,6 @@ node.reverse_merge!(
     add_repositories: [
       'homebrew/dupes',
       'homebrew/versions',
-      'caskroom/cask',
     ],
     install_packages: [],
     install_apps: [],
