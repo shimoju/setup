@@ -28,6 +28,7 @@ brew:
     - iterm2
     - java
     # - karabiner # Sierraで動かない
+    - postico
     - processing
     - sequel-pro
     - skype
