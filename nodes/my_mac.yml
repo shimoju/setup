@@ -28,7 +28,6 @@ brew:
     - iterm2
     - java
     # - karabiner # Sierraで動かない
-    - libreoffice
     - processing
     - sequel-pro
     - skype
