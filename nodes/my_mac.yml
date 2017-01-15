@@ -20,7 +20,7 @@ brew:
     - docker
     - dropbox
     - firefox
-    - flash
+    - flash-npapi
     - flux
     - google-chrome
     - google-japanese-ime
