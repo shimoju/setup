@@ -3,6 +3,7 @@
 ## Install
 
 ```
+$ xcode-select --install
 $ curl -fL bit.ly/shimoju-setup | sh
 ```
 
