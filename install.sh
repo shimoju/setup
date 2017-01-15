@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -ex
+
 git clone https://github.com/shimoju/setup.git ~/setup
 cd ~/setup
 
