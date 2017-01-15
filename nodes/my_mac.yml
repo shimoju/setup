@@ -14,9 +14,12 @@ brew:
     - wget
     - youtube-dl
   install_apps:
+    - appcleaner
     - atom
+    - automute
     - blu-ray-player
     - cmd-eikana
+    - cyberduck
     - docker
     - dropbox
     - firefox
