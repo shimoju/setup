@@ -15,7 +15,6 @@ brew:
     - youtube-dl
   install_apps:
     - atom
-    - audacity
     - blu-ray-player
     - docker
     - dropbox
