@@ -36,6 +36,7 @@ brew:
     - tuntap
     - vagrant
     - virtualbox
+    - visual-studio-code
     - vlc
   install_fonts:
     - font-m-plus
