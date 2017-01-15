@@ -16,6 +16,7 @@ brew:
   install_apps:
     - atom
     - blu-ray-player
+    - cmd-eikana
     - docker
     - dropbox
     - firefox
@@ -26,7 +27,7 @@ brew:
     - insomniax
     - iterm2
     - java
-    - karabiner
+    # - karabiner # Sierraで動かない
     - libreoffice
     - processing
     - sequel-pro
