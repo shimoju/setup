@@ -7,8 +7,8 @@ end
 
 %w(
   homebrew/dupes
-  homebrew/versions
   caskroom/cask
+  caskroom/fonts
 ).each do |repo|
   describe command("brew tap | grep '^#{repo}$'") do
     its(:exit_status) { should eq 0 }
