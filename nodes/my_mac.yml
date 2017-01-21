@@ -2,10 +2,13 @@ brew:
   enable_update: false
   enable_upgrade: false
   # 依存関係や設定ファイルのないパッケージはここに書く
+  add_repositories:
+    - drone/drone
   install_packages:
     - carthage
     - checkbashisms
     - direnv
+    - drone --devel
     - go
     - heroku
     - imagemagick
