@@ -10,7 +10,11 @@ brew:
     - heroku
     - imagemagick
     - jq
+    - mergepbx
     - nghttp2
+    - peco
+    - phantomjs
+    - swiftlint
     - tree
     - wget
     - youtube-dl
