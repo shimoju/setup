@@ -8,7 +8,7 @@ brew:
     - carthage
     - checkbashisms
     - direnv
-    - drone --devel
+    - drone
     - go
     - heroku
     - imagemagick
