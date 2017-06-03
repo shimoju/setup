@@ -34,6 +34,7 @@ brew:
     - flash-npapi
     - flux
     - google-chrome
+    - google-cloud-sdk
     - google-japanese-ime
     - insomniax
     - iterm2
