@@ -29,23 +29,20 @@ brew:
     - youtube-dl
   install_apps:
     - appcleaner
-    - atom
     - automute
     - blu-ray-player
-    - cmd-eikana
     - cyberduck
     - docker
     - dropbox
     - firefox
     - flash-npapi
-    - flux
     - google-chrome
     - google-cloud-sdk
     - google-japanese-ime
     - insomniax
     - iterm2
     - java
-    # - karabiner # Sierraで動かない
+    - karabiner-elements
     - postico
     - processing
     - sequel-pro
