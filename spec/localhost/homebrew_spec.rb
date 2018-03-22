@@ -6,7 +6,6 @@ describe file('/usr/local/bin/brew') do
 end
 
 %w(
-  homebrew/dupes
   caskroom/cask
   caskroom/fonts
 ).each do |repo|
