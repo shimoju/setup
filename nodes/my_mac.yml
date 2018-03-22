@@ -36,6 +36,7 @@ brew:
     - dropbox
     - firefox
     - flash-npapi
+    - gitify
     - google-chrome
     - google-cloud-sdk
     - google-japanese-ime
