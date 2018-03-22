@@ -49,6 +49,7 @@ brew:
     - processing
     - sequel-pro
     - skype
+    - slack
     - tunnelblick
     - tuntap
     - vagrant
