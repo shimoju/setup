@@ -3,5 +3,7 @@ bundler
 pry
 rails
 rake
+rubocop
+solargraph
 terminal-notifier
 travis
