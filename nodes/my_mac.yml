@@ -18,6 +18,7 @@ brew:
     - ipcalc
     - jpegoptim
     - jq
+    - kubectl
     - mergepbx
     - nghttp2
     - peco
