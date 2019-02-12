@@ -37,6 +37,7 @@ brew:
     - wget
     - youtube-dl
   install_apps:
+    - 1password
     - appcleaner
     - automute
     - blu-ray-player
@@ -44,6 +45,7 @@ brew:
     - cyberduck
     - docker
     - dropbox
+    - figma
     - firefox
     - flash-npapi
     - gitify
@@ -60,6 +62,7 @@ brew:
     - sequel-pro
     - skype
     - slack
+    - spotify
     - tunnelblick
     - tuntap
     - vagrant
