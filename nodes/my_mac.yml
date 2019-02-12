@@ -9,21 +9,29 @@ brew:
     - awscli
     - carthage
     - checkbashisms
+    - cli53
     - ctop
     - direnv
     - drone
+    - elixir
     - go
+    - guetzli
     - heroku
     - imagemagick
     - ipcalc
     - jpegoptim
     - jq
-    - kubectl
+    - kubernetes-cli
     - mergepbx
+    - mkcert
+    - mysql
     - nghttp2
+    - openapi-generator
     - peco
     - pngquant
+    - postgresql
     - ripgrep
+    - sqlite
     - swiftlint
     - tree
     - wget
