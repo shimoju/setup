@@ -27,7 +27,6 @@ brew:
     - mkcert
     - mysql
     - nghttp2
-    - openapi-generator
     - peco
     - pngquant
     - postgresql
