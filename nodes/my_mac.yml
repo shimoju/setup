@@ -4,6 +4,7 @@ brew:
   # 依存関係や設定ファイルのないパッケージはここに書く
   add_repositories:
     - drone/drone
+    - heroku/brew
   install_packages:
     - ansible
     - awscli
