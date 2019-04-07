@@ -17,11 +17,14 @@ brew:
     - elixir
     - go
     - guetzli
+    - haskell-stack
     - heroku
+    - hugo
     - imagemagick
     - ipcalc
     - jpegoptim
     - jq
+    - kotlin
     - kubernetes-cli
     - mergepbx
     - mkcert
