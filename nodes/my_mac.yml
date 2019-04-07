@@ -41,6 +41,7 @@ brew:
     - youtube-dl
   install_apps:
     - 1password
+    - android-studio
     - appcleaner
     - automute
     - blu-ray-player
