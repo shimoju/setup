@@ -6,6 +6,7 @@ brew:
     - drone/drone
     - heroku/brew
   install_packages:
+    - adr-tools
     - ansible
     - awscli
     - carthage
