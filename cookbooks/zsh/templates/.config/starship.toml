@@ -1,0 +1,9 @@
+[directory]
+truncation_length = 8
+truncate_to_repo = false
+
+[git_branch]
+symbol = "🌵 "
+
+[time]
+disabled = false

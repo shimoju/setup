@@ -55,6 +55,7 @@ describe 'Zsh config' do
     .zshrc.d/docker.zsh
     .zshrc.d/neovim.zsh
     .zshrc.d/ruby.zsh
+    .zshrc.d/starship.zsh
   ).each do |conf|
     describe file(File.expand_path(conf, '~/.config/zsh')) do
       it { should be_file }

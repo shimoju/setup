@@ -1,5 +1,6 @@
 package 'zsh'
 package 'git'
+package 'starship'
 
 zsh_path = '/usr/local/bin/zsh'
 
@@ -42,7 +43,6 @@ end
   .zshrc.d
 ).each do |confdir|
   directory File.expand_path(confdir, zdotdir)
-
 end
 
 %w(
@@ -52,10 +52,15 @@ end
   .zshrc.d/docker.zsh
   .zshrc.d/neovim.zsh
   .zshrc.d/ruby.zsh
+  .zshrc.d/starship.zsh
 ).each do |conf|
   template File.expand_path(conf, zdotdir) do
     mode '644'
   end
+end
+
+template File.expand_path('~/.config/starship.toml') do
+  mode '644'
 end
 
 link File.expand_path('~/.zshenv') do
