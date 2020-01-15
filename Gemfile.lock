@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/shimoju/itamae-plugin-recipe-homebrew.git
-  revision: c1570a63984075b67c82a4cb6bed479c11f47b45
+  revision: a7255484620841484683590248bb3b523bbb347b
   specs:
     itamae-plugin-recipe-homebrew (0.0.3)
       itamae (~> 1.5)
