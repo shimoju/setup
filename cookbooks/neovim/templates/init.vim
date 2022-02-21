@@ -41,9 +41,3 @@ set hidden
 set nobackup
 " アンドゥファイル(.un~)を作成しない
 set noundofile
-
-" :を;と入れ替える(USキーボード用)
-nnoremap ; :
-nnoremap : ;
-vnoremap ; :
-vnoremap : ;
