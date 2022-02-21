@@ -1,10 +1,9 @@
 awesome_print
 bundler
-docker-sync
-pry
+bundler-diff
+foreman
 rails
 rake
 rubocop
 solargraph
 terminal-notifier
-travis
