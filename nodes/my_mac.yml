@@ -4,16 +4,12 @@ brew:
   # 依存関係や設定ファイルのないパッケージはここに書く
   add_repositories:
     - heroku/brew
-    - yano3/tap
   install_packages:
-    - adr-tools
     - ansible
     - awscli
-    - carthage
     - checkbashisms
     - cli53
     - ctop
-    - cws-clocking-cli
     - direnv
     - elixir
     - gh
@@ -28,7 +24,6 @@ brew:
     - jq
     - kotlin
     - kubernetes-cli
-    - mergepbx
     - minikube
     - mkcert
     - mysql
@@ -41,7 +36,6 @@ brew:
     - rustup-init
     - sqlite
     - sshuttle
-    - swiftlint
     - tree
     - wget
     - youtube-dl
@@ -50,7 +44,6 @@ brew:
     - android-studio
     - appcleaner
     - blu-ray-player
-    - chatwork
     - cyberduck
     - discord
     - docker
