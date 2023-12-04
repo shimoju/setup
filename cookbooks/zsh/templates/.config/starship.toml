@@ -4,5 +4,8 @@ command_timeout = 1000
 truncation_length = 8
 truncate_to_repo = false
 
+[kubernetes]
+disabled = false
+
 [time]
 disabled = false
